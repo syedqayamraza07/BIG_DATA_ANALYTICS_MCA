@@ -1,0 +1,501 @@
+customer_id,gender,age,marital_status,city,monthly_income,employment_type,loan_type,loan_amount,loan_term_months,interest_rate_percent,credit_score,approval_status,default_status,application_date,branch_city,existing_loans
+CUST10000,Male,22,Single,Hyderabad,62418.0,Salaried,Home,1930867,240,13.55,695.0,Rejected,No,2025-07-12,Hyderabad,1
+CUST10001,Male,35,Married,Mumbai,44146.0,Student,Personal,70634,240,12.03,760.0,Approved,No,2024-08-13,Mumbai,1
+CUST10002,Male,65,Married,Chennai,38263.0,Salaried,Home,2271280,36,9.57,617.0,Rejected,No,2025-01-24,Chennai,0
+CUST10003,Male,50,Married,Pune,56049.0,Self-Employed,Home,1043359,36,9.38,529.0,Rejected,No,2025-01-05,Pune,2
+CUST10004,Female,26,Single,Delhi,24679.0,Self-Employed,Personal,92569,60,7.68,586.0,Rejected,No,2025-01-08,Delhi,0
+CUST10005,Male,59,Single,Jaipur,86641.0,Self-Employed,Education,277422,24,7.65,654.0,Approved,Yes,2025-07-24,Jaipur,2
+CUST10006,Male,35,Single,Kolkata,36390.0,Self-Employed,Personal,84436,12,11.25,569.0,Approved,No,2024-11-18,Kolkata,2
+CUST10007,Female,30,Married,Hyderabad,34984.0,Student,Education,270830,120,14.2,607.0,Approved,Yes,2025-08-20,Hyderabad,0
+CUST10008,Female,26,Single,Delhi,49663.0,Salaried,Home,1471144,24,8.06,707.0,Rejected,No,2025-03-08,Delhi,1
+CUST10009,Female,56,Single,Mumbai,55222.0,Business Owner,Education,104032,12,10.89,557.0,Approved,Yes,2024-09-30,Mumbai,0
+CUST10010,Male,37,Divorced,Bengaluru,68462.0,Self-Employed,Personal,86854,12,9.9,641.0,Approved,Yes,2025-06-03,Bengaluru,0
+CUST10011,Male,59,Married,Mumbai,13037.0,Self-Employed,Home,1640077,36,12.61,617.0,Rejected,No,2024-11-10,Mumbai,0
+CUST10012,Male,26,Single,Delhi,58590.0,Self-Employed,Auto,247391,120,9.73,672.0,Approved,Yes,2025-05-01,Delhi,0
+CUST10013,Male,55,Single,Hyderabad,33077.0,Student,Education,361167,60,12.36,722.0,Rejected,No,2025-01-17,Hyderabad,1
+CUST10014,Male,42,Married,Jaipur,29020.0,Self-Employed,Home,1845393,24,12.45,673.0,Approved,No,2024-03-01,Jaipur,0
+CUST10015,Male,53,Married,Ahmedabad,38021.0,Student,Home,1907170,24,8.11,572.0,Rejected,No,2025-08-07,Ahmedabad,0
+CUST10016,Male,27,Married,Pune,70313.0,Salaried,Personal,134249,60,12.51,644.0,Approved,No,2024-04-10,Pune,1
+CUST10017,Male,36,Married,Jaipur,59041.0,Student,Personal,54195,60,13.58,675.0,Approved,No,2024-03-18,Jaipur,3
+CUST10018,Male,62,Widowed,Mumbai,49104.0,Student,Auto,912928,24,12.14,466.0,Rejected,No,2025-05-12,Mumbai,0
+CUST10019,Male,45,Married,Pune,52176.0,Student,Personal,68039,60,6.52,656.0,Approved,No,2025-07-23,Pune,0
+CUST10020,Male,58,Single,Mumbai,44508.0,Self-Employed,Education,335711,12,9.46,753.0,Approved,No,2025-06-27,Mumbai,0
+CUST10021,Male,25,Married,Hyderabad,29788.0,Student,Personal,59929,120,11.16,714.0,Approved,No,2024-03-24,Hyderabad,2
+CUST10022,Female,34,Single,Kolkata,36756.0,Student,Home,2256633,60,12.44,656.0,Rejected,No,2024-11-03,Kolkata,0
+CUST10023,Male,50,Single,Lucknow,32449.0,Business Owner,Auto,534467,12,7.57,622.0,Rejected,No,2025-06-02,Lucknow,0
+CUST10024,Male,44,Married,Ahmedabad,57403.0,Salaried,Business,578316,240,10.03,650.0,Approved,No,2025-06-25,Ahmedabad,2
+CUST10025,Male,29,Married,Delhi,14616.0,Business Owner,Education,257935,24,8.9,626.0,Rejected,No,2024-08-03,Delhi,0
+CUST10026,Female,37,Single,Mumbai,45968.0,Salaried,Home,2202025,60,10.85,782.0,Rejected,No,2024-02-15,Mumbai,0
+CUST10027,Female,31,Single,Jaipur,56439.0,Salaried,Education,292555,120,10.45,515.0,Approved,Yes,2024-06-01,Jaipur,3
+CUST10028,Female,29,Married,Kolkata,51506.0,Self-Employed,Business,1238972,12,11.1,636.0,Rejected,No,2024-08-03,Kolkata,2
+CUST10029,Female,60,Single,Hyderabad,49132.0,Student,Business,149396,24,12.0,729.0,Approved,Yes,2024-12-06,Hyderabad,3
+CUST10030,Male,38,Married,Delhi,69776.0,Business Owner,Personal,43624,12,7.7,748.0,Approved,No,2025-04-16,Delhi,0
+CUST10031,Male,22,Single,Pune,64671.0,Student,Personal,167618,12,9.37,580.0,Approved,Yes,2025-06-05,Pune,2
+CUST10032,Male,28,Single,Chennai,52491.0,Business Owner,Home,1748262,36,10.64,541.0,Approved,Yes,2024-12-19,Chennai,1
+CUST10033,Female,57,Married,Mumbai,23442.0,Self-Employed,Education,347359,12,13.6,585.0,Rejected,No,2025-07-05,Mumbai,0
+CUST10034,Female,60,Married,Delhi,30419.0,Student,Education,267793,36,8.04,706.0,Approved,No,2024-11-30,Delhi,2
+CUST10035,Female,63,Single,Bengaluru,55686.0,Business Owner,Education,430714,36,10.87,537.0,Approved,Yes,2024-11-07,Bengaluru,0
+CUST10036,Female,50,Married,Hyderabad,56497.0,Business Owner,Personal,111272,240,7.86,563.0,Approved,Yes,2025-06-11,Hyderabad,0
+CUST10037,Female,35,Single,Bengaluru,63049.0,Student,Home,2148492,24,11.19,667.0,Rejected,No,2024-03-15,Bengaluru,1
+CUST10038,Female,52,Married,Bengaluru,32999.0,Student,Education,323225,12,9.07,670.0,Rejected,No,2024-04-19,Bengaluru,0
+CUST10039,Female,24,Married,Delhi,96644.0,Student,Personal,98953,60,11.81,566.0,Approved,No,2024-11-20,Delhi,1
+CUST10040,Female,56,Married,Bengaluru,25633.0,Business Owner,Education,378708,60,8.86,731.0,Rejected,No,2024-09-10,Bengaluru,3
+CUST10041,Male,38,Married,Chennai,74084.0,Salaried,Home,2206390,36,14.29,707.0,Rejected,No,2025-07-07,Chennai,0
+CUST10042,Male,34,Married,Pune,43865.0,Student,Personal,49850,60,8.87,587.0,Approved,Yes,2025-03-06,Pune,3
+CUST10043,Female,51,Married,Kolkata,48072.0,Self-Employed,Personal,93646,60,12.15,669.0,Approved,No,2025-03-05,Kolkata,1
+CUST10044,Male,45,Married,Pune,50325.0,Salaried,Education,445353,60,15.94,631.0,Rejected,No,2025-06-30,Pune,1
+CUST10045,Male,62,Married,Ahmedabad,65642.0,Student,Home,1571421,36,11.46,575.0,Rejected,No,2024-08-04,Ahmedabad,0
+CUST10046,Female,47,Married,Delhi,44413.0,Self-Employed,Personal,108560,240,10.35,683.0,Approved,No,2024-12-24,Delhi,2
+CUST10047,Male,22,Single,Hyderabad,28830.0,Self-Employed,Business,45545,120,12.21,618.0,Approved,Yes,2024-04-27,Hyderabad,1
+CUST10048,Male,59,Single,Delhi,55352.0,Business Owner,Business,126278,24,11.27,662.0,Approved,Yes,2024-01-27,Delhi,1
+CUST10049,Female,33,Married,Hyderabad,27904.0,Salaried,Home,2076862,36,8.21,654.0,Rejected,No,2024-05-03,Hyderabad,0
+CUST10050,Male,53,Single,Mumbai,58945.0,Self-Employed,Business,668235,60,12.61,725.0,Approved,No,2025-04-15,Mumbai,1
+CUST10051,Female,60,Single,Jaipur,15558.0,Business Owner,Business,218652,60,11.53,686.0,Rejected,No,2024-10-01,Jaipur,3
+CUST10052,Female,49,Married,Ahmedabad,62876.0,Self-Employed,Personal,234109,240,12.77,689.0,Approved,Yes,2024-11-28,Ahmedabad,1
+CUST10053,Female,38,Single,Chennai,73850.0,Student,Personal,106055,120,12.02,627.0,Approved,Yes,2025-02-20,Chennai,1
+CUST10054,Female,49,Single,Delhi,30679.0,Business Owner,Personal,70527,60,10.66,616.0,Approved,Yes,2025-08-18,Delhi,1
+CUST10055,Female,43,Single,Chennai,107866.0,Self-Employed,Personal,5309,24,7.27,698.0,Approved,No,2024-05-02,Chennai,0
+CUST10056,Female,27,Single,Chennai,38202.0,Self-Employed,Home,2544475,24,8.34,654.0,Rejected,No,2025-06-30,Chennai,0
+CUST10057,Female,65,Single,Ahmedabad,32117.0,Student,Home,2339798,12,10.93,598.0,Rejected,No,2025-04-25,Ahmedabad,1
+CUST10058,Female,51,Married,Delhi,51139.0,Self-Employed,Personal,53935,12,11.77,800.0,Approved,No,2024-06-04,Delhi,3
+CUST10059,Male,28,Married,Pune,8000.0,Student,Education,318645,120,12.2,603.0,Rejected,No,2025-06-19,Pune,1
+CUST10060,Female,40,Married,Mumbai,30187.0,Business Owner,Education,288526,240,12.23,685.0,Approved,No,2024-08-04,Mumbai,2
+CUST10061,Male,31,Married,Ahmedabad,19993.0,Business Owner,Education,266549,60,9.19,616.0,Rejected,No,2024-08-25,Ahmedabad,2
+CUST10062,Male,64,Married,Chennai,94136.0,Student,Business,621494,240,12.34,561.0,Approved,Yes,2024-07-21,Chennai,0
+CUST10063,Female,30,Married,Bengaluru,103054.0,Student,Business,809739,120,9.53,543.0,Approved,Yes,2024-10-22,Bengaluru,0
+CUST10064,Female,38,Married,Ahmedabad,81673.0,Business Owner,Personal,51693,120,12.05,681.0,Approved,No,2024-11-26,Ahmedabad,0
+CUST10065,Male,64,Single,Lucknow,26827.0,Business Owner,Home,1970237,24,8.45,423.0,Rejected,No,2025-03-28,Lucknow,0
+CUST10066,Female,26,Married,Pune,43686.0,Student,Personal,30088,240,7.64,764.0,Approved,No,2025-02-25,Pune,0
+CUST10067,Male,50,Married,Chennai,38999.0,Student,Personal,85229,60,7.63,750.0,Approved,No,2024-01-02,Chennai,1
+CUST10068,Female,61,Married,Mumbai,79079.0,Salaried,Home,2005116,120,11.42,581.0,Approved,Yes,2025-05-11,Mumbai,0
+CUST10069,Male,31,Married,Mumbai,54976.0,Student,Personal,55991,12,9.73,654.0,Approved,No,2024-04-26,Mumbai,0
+CUST10070,Female,53,Single,Pune,52838.0,Self-Employed,Business,698639,60,8.02,761.0,Approved,No,2025-01-27,Pune,1
+CUST10071,Male,38,Single,Pune,103326.0,Student,Personal,21637,36,11.68,639.0,Approved,Yes,2024-11-01,Pune,3
+CUST10072,Female,42,Married,Jaipur,57025.0,Student,Personal,55092,36,9.51,635.0,Approved,No,2024-09-01,Jaipur,0
+CUST10073,Female,51,Single,Pune,35266.0,Student,Personal,113984,240,9.11,674.0,Approved,No,2024-06-04,Pune,0
+CUST10074,Female,27,Single,Ahmedabad,72490.0,Salaried,Home,2153649,60,11.76,706.0,Approved,Yes,2024-06-07,Ahmedabad,1
+CUST10075,Female,62,Married,Kolkata,29275.0,Salaried,Business,331945,120,11.72,702.0,Approved,No,2025-05-14,Kolkata,1
+CUST10076,Female,35,Single,Pune,49477.0,Student,Auto,623465,240,9.32,739.0,Rejected,No,2024-04-12,Pune,0
+CUST10077,Male,41,Single,Chennai,63677.0,Self-Employed,Personal,71912,60,12.7,634.0,Approved,No,2025-08-02,Chennai,0
+CUST10078,Female,60,Single,Ahmedabad,70635.0,Business Owner,Auto,762701,24,10.54,,Approved,No,2025-04-15,Ahmedabad,2
+CUST10079,Female,64,Married,Delhi,67049.0,Student,Personal,67589,36,10.24,672.0,Rejected,No,2024-11-02,Delhi,2
+CUST10080,Male,45,Single,Delhi,52425.0,Business Owner,Home,2297578,120,14.68,592.0,Rejected,No,2024-10-29,Delhi,0
+CUST10081,Female,21,Married,Mumbai,24850.0,Self-Employed,Auto,357162,240,12.08,731.0,Rejected,No,2024-10-20,Mumbai,1
+CUST10082,Male,60,Married,Bengaluru,65603.0,Salaried,Education,362834,240,8.71,649.0,Approved,Yes,2025-03-27,Bengaluru,1
+CUST10083,Female,41,Single,Bengaluru,51895.0,Business Owner,Home,1661419,120,10.21,718.0,Rejected,No,2025-01-09,Bengaluru,3
+CUST10084,Female,39,Single,Kolkata,29363.0,Self-Employed,Business,403584,60,9.37,678.0,Rejected,No,2024-05-24,Kolkata,3
+CUST10085,Female,56,Married,Pune,29444.0,Business Owner,Home,2121843,120,9.49,667.0,Rejected,No,2025-01-12,Pune,1
+CUST10086,Female,27,Single,Ahmedabad,38224.0,Salaried,Home,2116024,120,7.69,548.0,Rejected,No,2024-08-14,Ahmedabad,2
+CUST10087,Female,62,Married,Bengaluru,32039.0,Salaried,Home,1893276,12,13.45,671.0,Rejected,No,2025-05-19,Bengaluru,0
+CUST10088,Female,50,Married,Jaipur,71441.0,Student,Personal,73602,240,8.49,648.0,Approved,No,2024-04-11,Jaipur,1
+CUST10089,Male,65,Married,Ahmedabad,49537.0,Business Owner,Personal,68453,24,8.85,672.0,Approved,Yes,2025-01-11,Ahmedabad,0
+CUST10090,Male,50,Married,Hyderabad,62984.0,Business Owner,Education,453273,120,11.3,642.0,Rejected,No,2024-02-21,Hyderabad,0
+CUST10091,Male,25,Single,Jaipur,67254.0,Business Owner,Home,1799389,24,10.53,665.0,Rejected,No,2024-08-26,Jaipur,3
+CUST10092,Male,38,Single,Bengaluru,52442.0,Self-Employed,Auto,445398,120,11.5,651.0,Approved,Yes,2024-01-27,Bengaluru,0
+CUST10093,Female,22,Married,Mumbai,86279.0,Student,Home,2479635,60,8.97,800.0,Rejected,No,2024-03-06,Mumbai,1
+CUST10094,Male,49,Married,Lucknow,71808.0,Salaried,Home,2091671,240,8.88,803.0,Rejected,No,2025-04-14,Lucknow,0
+CUST10095,Female,64,Married,Ahmedabad,29007.0,Salaried,Home,1700303,12,9.45,501.0,Rejected,No,2024-05-31,Ahmedabad,0
+CUST10096,Female,45,Widowed,Jaipur,31022.0,Self-Employed,Personal,86015,120,14.25,673.0,Approved,Yes,2024-04-27,Jaipur,1
+CUST10097,Female,50,Married,Delhi,73761.0,Student,Personal,56923,36,11.48,587.0,Approved,Yes,2024-06-05,Delhi,0
+CUST10098,Female,27,Single,Kolkata,16994.0,Business Owner,Business,1049437,120,9.56,732.0,Rejected,No,2025-07-29,Kolkata,2
+CUST10099,Female,24,Divorced,Lucknow,8000.0,Self-Employed,Personal,134154,12,12.98,641.0,Rejected,No,2024-08-05,Lucknow,2
+CUST10100,Female,56,Married,Chennai,10139.0,Salaried,Personal,56024,60,10.59,650.0,Rejected,No,2025-07-24,Chennai,1
+CUST10101,Female,22,Married,Chennai,38748.0,Student,Auto,724569,36,10.22,575.0,Approved,No,2025-08-02,Chennai,0
+CUST10102,Male,26,Single,Hyderabad,53007.0,Salaried,Personal,100577,60,8.25,699.0,Approved,No,2024-11-28,Hyderabad,0
+CUST10103,Male,64,Married,Ahmedabad,11647.0,Business Owner,Education,427767,60,9.0,673.0,Rejected,No,2025-02-28,Ahmedabad,0
+CUST10104,Female,28,Married,Lucknow,88779.0,Salaried,Personal,84626,240,10.64,732.0,Approved,No,2024-02-26,Lucknow,0
+CUST10105,Male,37,Married,Delhi,101519.0,Student,Home,2877670,240,12.44,632.0,Rejected,No,2024-05-12,Delhi,1
+CUST10106,Female,25,Married,Mumbai,66134.0,Student,Personal,134745,60,11.87,582.0,Approved,No,2025-08-12,Mumbai,1
+CUST10107,Female,28,Married,Kolkata,76461.0,Salaried,Home,1120630,120,6.5,567.0,Approved,Yes,2025-01-05,Kolkata,1
+CUST10108,Female,54,Married,Chennai,43265.0,Salaried,Education,371754,24,10.65,755.0,Approved,Yes,2025-06-06,Chennai,1
+CUST10109,Female,43,Single,Bengaluru,90715.0,Salaried,Home,1309949,24,10.39,530.0,Approved,Yes,2024-06-05,Bengaluru,0
+CUST10110,Female,57,Single,Ahmedabad,59602.0,Business Owner,Education,296730,120,10.32,505.0,Approved,Yes,2024-11-26,Ahmedabad,0
+CUST10111,Female,38,Married,Kolkata,17388.0,Business Owner,Personal,106786,36,8.62,675.0,Approved,Yes,2025-01-12,Kolkata,0
+CUST10112,Male,60,Married,Pune,37153.0,Student,Personal,37631,120,12.41,645.0,Rejected,No,2024-02-12,Pune,3
+CUST10113,Female,53,Married,Mumbai,25357.0,Self-Employed,Personal,100161,36,8.91,612.0,Rejected,No,2024-03-27,Mumbai,0
+CUST10114,Female,54,Married,Bengaluru,47324.0,Business Owner,Personal,38590,36,8.1,611.0,Approved,No,2024-02-23,Bengaluru,0
+CUST10115,Female,39,Married,Lucknow,99118.0,Business Owner,Business,510579,36,10.93,601.0,Approved,Yes,2024-12-24,Lucknow,2
+CUST10116,Male,40,Married,Kolkata,47192.0,Salaried,Business,433709,240,12.02,692.0,Approved,No,2025-06-23,Kolkata,2
+CUST10117,Male,44,Married,Hyderabad,36737.0,Salaried,Personal,56967,60,6.5,630.0,Approved,No,2024-06-07,Hyderabad,0
+CUST10118,Male,63,Married,Lucknow,12120.0,Self-Employed,Home,2683437,60,10.0,765.0,Rejected,No,2024-07-04,Lucknow,2
+CUST10119,Male,49,Single,Ahmedabad,64414.0,Self-Employed,Home,2155625,24,12.74,865.0,Rejected,No,2025-04-25,Ahmedabad,0
+CUST10120,Female,50,Single,Pune,46802.0,Self-Employed,Personal,41778,60,10.91,537.0,Rejected,No,2024-07-23,Pune,3
+CUST10121,Female,56,Single,Jaipur,31091.0,Self-Employed,Business,73323,36,8.34,604.0,Approved,Yes,2025-04-05,Jaipur,3
+CUST10122,Male,49,Single,Mumbai,92179.0,Business Owner,Personal,115265,60,13.46,,Approved,Yes,2024-03-24,Mumbai,0
+CUST10123,Female,30,Married,Chennai,51934.0,Student,Auto,427743,60,11.58,,Approved,Yes,2025-04-25,Chennai,1
+CUST10124,Female,34,Single,Jaipur,24069.0,Business Owner,Auto,561932,120,7.73,588.0,Rejected,No,2024-04-23,Jaipur,0
+CUST10125,Female,61,Single,Ahmedabad,73154.0,Self-Employed,Home,2954708,60,11.63,552.0,Rejected,No,2024-01-17,Ahmedabad,2
+CUST10126,Female,36,Married,Bengaluru,33734.0,Salaried,Education,251287,12,8.77,608.0,Approved,Yes,2025-06-22,Bengaluru,1
+CUST10127,Female,44,Married,Mumbai,51213.0,Business Owner,Personal,46761,12,10.4,668.0,Approved,No,2024-04-16,Mumbai,0
+CUST10128,Male,64,Married,Ahmedabad,44026.0,Salaried,Education,209243,24,12.01,609.0,Approved,No,2025-04-13,Ahmedabad,0
+CUST10129,Male,41,Single,Jaipur,62523.0,Business Owner,Personal,40897,120,12.0,656.0,Approved,Yes,2024-07-14,Jaipur,0
+CUST10130,Female,38,Married,Kolkata,8265.0,Business Owner,Personal,101734,60,11.64,603.0,Rejected,No,2025-01-30,Kolkata,0
+CUST10131,Female,26,Single,Delhi,30919.0,Business Owner,Personal,7804,24,10.6,536.0,Approved,Yes,2024-03-22,Delhi,2
+CUST10132,Female,31,Single,Kolkata,56493.0,Business Owner,Personal,43827,240,7.18,694.0,Approved,No,2025-03-21,Kolkata,2
+CUST10133,Male,63,Single,Kolkata,48348.0,Student,Personal,31559,240,10.59,604.0,Approved,No,2024-05-26,Kolkata,0
+CUST10134,Female,44,Married,Lucknow,28490.0,Business Owner,Home,1807722,24,9.35,720.0,Rejected,No,2025-01-14,Lucknow,1
+CUST10135,Female,46,Married,Chennai,70892.0,Student,Home,1435146,12,13.38,687.0,Approved,Yes,2025-06-14,Chennai,1
+CUST10136,Female,34,Widowed,Chennai,8000.0,Salaried,Education,220310,60,10.09,690.0,Rejected,No,2024-05-18,Chennai,1
+CUST10137,Male,64,Divorced,Kolkata,59279.0,Self-Employed,Education,239601,240,10.19,656.0,Approved,No,2024-11-03,Kolkata,2
+CUST10138,Male,44,Married,Delhi,79195.0,Business Owner,Auto,650884,24,9.68,673.0,Approved,No,2025-01-04,Delhi,1
+CUST10139,Male,25,Married,Ahmedabad,37810.0,Salaried,Personal,62697,60,9.66,677.0,Approved,Yes,2024-11-20,Ahmedabad,1
+CUST10140,Male,56,Single,Bengaluru,57244.0,Salaried,Business,1122620,24,9.85,710.0,Approved,No,2024-02-26,Bengaluru,1
+CUST10141,Female,35,Married,Jaipur,80030.0,Business Owner,Business,377577,12,8.48,507.0,Approved,Yes,2025-07-18,Jaipur,0
+CUST10142,Male,53,Single,Lucknow,8000.0,Salaried,Auto,529697,24,13.85,651.0,Rejected,No,2024-12-11,Lucknow,3
+CUST10143,Female,62,Married,Lucknow,58173.0,Business Owner,Personal,71235,240,6.5,708.0,Approved,No,2025-07-12,Lucknow,2
+CUST10144,Female,40,Married,Mumbai,55890.0,Business Owner,Home,2385432,60,12.79,546.0,Rejected,No,2024-07-27,Mumbai,1
+CUST10145,Female,43,Divorced,Bengaluru,58462.0,Salaried,Business,375413,120,15.04,694.0,Approved,No,2025-04-22,Bengaluru,0
+CUST10146,Male,39,Single,Lucknow,54547.0,Self-Employed,Personal,89928,24,8.8,617.0,Approved,No,2024-11-16,Lucknow,3
+CUST10147,Female,52,Single,Ahmedabad,70758.0,Self-Employed,Home,1571958,60,9.54,655.0,Rejected,No,2024-09-03,Ahmedabad,1
+CUST10148,Female,59,Single,Ahmedabad,61974.0,Business Owner,Personal,93346,12,9.48,722.0,Approved,No,2024-09-27,Ahmedabad,3
+CUST10149,Male,57,Married,Kolkata,43253.0,Business Owner,Personal,40849,12,11.25,618.0,Approved,Yes,2025-07-17,Kolkata,3
+CUST10150,Male,29,Divorced,Pune,68925.0,Self-Employed,Personal,43113,36,13.21,710.0,Approved,No,2024-05-27,Pune,1
+CUST10151,Male,23,Married,Kolkata,60336.0,Self-Employed,Business,1063038,120,8.01,595.0,Rejected,No,2025-06-11,Kolkata,0
+CUST10152,Female,60,Single,Chennai,8000.0,Student,Personal,139841,120,10.39,695.0,Rejected,No,2025-06-29,Chennai,2
+CUST10153,Male,44,Married,Delhi,56999.0,Student,Auto,374902,120,10.76,821.0,Approved,No,2024-01-28,Delhi,0
+CUST10154,Male,24,Married,Bengaluru,52735.0,Self-Employed,Personal,109030,240,10.95,683.0,Approved,No,2024-05-31,Bengaluru,0
+CUST10155,Male,22,Married,Pune,30238.0,Student,Home,2235734,240,13.19,781.0,Rejected,No,2025-05-28,Pune,3
+CUST10156,Male,54,Married,Kolkata,89830.0,Student,Auto,497756,60,10.25,580.0,Approved,Yes,2024-06-26,Kolkata,1
+CUST10157,Female,60,Married,Hyderabad,51393.0,Business Owner,Personal,123767,36,13.56,531.0,Approved,No,2024-10-31,Hyderabad,2
+CUST10158,Female,51,Married,Chennai,46050.0,Business Owner,Personal,62924,120,7.19,579.0,Approved,Yes,2025-02-08,Chennai,3
+CUST10159,Female,26,Married,Ahmedabad,70579.0,Business Owner,Education,307331,240,7.91,559.0,Approved,Yes,2025-07-05,Ahmedabad,1
+CUST10160,Male,36,Married,Jaipur,41605.0,Business Owner,Home,2834510,24,7.49,631.0,Rejected,No,2025-02-27,Jaipur,2
+CUST10161,Male,21,Divorced,Bengaluru,43856.0,Business Owner,Personal,69091,60,10.39,461.0,Approved,Yes,2024-10-21,Bengaluru,0
+CUST10162,Male,62,Married,Jaipur,44227.0,Student,Education,369620,12,12.75,779.0,Rejected,No,2024-06-28,Jaipur,3
+CUST10163,Female,52,Married,Chennai,43278.0,Business Owner,Business,168042,12,10.62,830.0,Approved,No,2024-12-09,Chennai,1
+CUST10164,Female,29,Single,Ahmedabad,50348.0,Self-Employed,Personal,79034,12,10.21,663.0,Approved,No,2024-09-20,Ahmedabad,0
+CUST10165,Male,32,Single,Pune,35658.0,Self-Employed,Business,335942,120,9.41,647.0,Approved,Yes,2024-04-07,Pune,0
+CUST10166,Male,37,Married,Ahmedabad,32179.0,Salaried,Business,531929,36,13.51,632.0,Rejected,No,2025-08-09,Ahmedabad,0
+CUST10167,Male,63,Married,Chennai,8000.0,Salaried,Home,2545753,240,6.5,737.0,Rejected,No,2024-11-14,Chennai,2
+CUST10168,Male,35,Divorced,Ahmedabad,41433.0,Student,Home,1814279,240,8.94,551.0,Rejected,No,2025-01-17,Ahmedabad,2
+CUST10169,Male,36,Single,Lucknow,22236.0,Business Owner,Business,1025681,12,13.04,715.0,Rejected,No,2025-06-24,Lucknow,0
+CUST10170,Male,57,Married,Bengaluru,68042.0,Student,Personal,34837,120,11.48,613.0,Approved,No,2025-08-20,Bengaluru,0
+CUST10171,Male,50,Married,Pune,,Salaried,Personal,108519,12,9.75,633.0,Rejected,No,2024-11-11,Pune,1
+CUST10172,Male,58,Married,Pune,67774.0,Student,Personal,97770,12,12.82,624.0,Approved,Yes,2024-03-11,Pune,0
+CUST10173,Male,62,Divorced,Pune,22973.0,Student,Personal,104637,60,9.88,691.0,Approved,No,2025-01-21,Pune,0
+CUST10174,Male,62,Single,Delhi,58153.0,Self-Employed,Home,1374443,120,10.13,,Rejected,No,2024-05-10,Delhi,3
+CUST10175,Female,50,Single,Jaipur,36932.0,Student,Personal,121960,60,7.68,600.0,Rejected,No,2024-09-10,Jaipur,0
+CUST10176,Male,23,Single,Pune,11084.0,Salaried,Education,360600,12,14.01,560.0,Rejected,No,2024-03-09,Pune,1
+CUST10177,Male,36,Single,Pune,8000.0,Self-Employed,Personal,147858,120,10.31,664.0,Rejected,No,2024-02-27,Pune,1
+CUST10178,Female,57,Married,Kolkata,36377.0,Self-Employed,Home,2199568,24,12.71,647.0,Rejected,No,2025-06-17,Kolkata,1
+CUST10179,Male,61,Single,Jaipur,52856.0,Business Owner,Personal,86012,36,10.39,624.0,Approved,No,2025-06-21,Jaipur,2
+CUST10180,Female,32,Single,Ahmedabad,57695.0,Student,Home,1144915,24,11.99,555.0,Rejected,No,2024-05-27,Ahmedabad,0
+CUST10181,Male,45,Married,Hyderabad,54272.0,Self-Employed,Personal,72640,12,11.2,651.0,Approved,No,2024-04-04,Hyderabad,0
+CUST10182,Male,25,Married,Lucknow,36506.0,Business Owner,Education,222169,120,8.54,663.0,Approved,Yes,2024-12-06,Lucknow,0
+CUST10183,Male,51,Single,Lucknow,60206.0,Student,Education,129741,60,11.45,722.0,Approved,No,2024-10-16,Lucknow,1
+CUST10184,Female,44,Married,Ahmedabad,56401.0,Business Owner,Personal,119307,240,12.53,766.0,Approved,No,2024-07-27,Ahmedabad,0
+CUST10185,Male,30,Married,Jaipur,8000.0,Self-Employed,Auto,344084,120,10.55,606.0,Rejected,No,2024-10-29,Jaipur,0
+CUST10186,Male,52,Married,Kolkata,62941.0,Student,Personal,50970,60,8.99,663.0,Approved,No,2025-05-17,Kolkata,0
+CUST10187,Male,55,Married,Jaipur,34712.0,Salaried,Auto,318667,12,7.8,,Rejected,No,2024-03-17,Jaipur,3
+CUST10188,Male,25,Single,Mumbai,25603.0,Student,Home,2526820,60,15.76,,Rejected,No,2025-05-09,Mumbai,0
+CUST10189,Male,22,Married,Chennai,62333.0,Self-Employed,Personal,87393,36,11.9,589.0,Approved,No,2025-03-16,Chennai,0
+CUST10190,Male,33,Single,Chennai,35609.0,Business Owner,Business,536602,36,10.31,829.0,Rejected,No,2024-03-21,Chennai,1
+CUST10191,Male,40,Single,Delhi,78732.0,Student,Education,229682,240,14.04,647.0,Approved,Yes,2025-01-23,Delhi,1
+CUST10192,Male,26,Married,Pune,34326.0,Salaried,Education,481244,36,9.38,699.0,Rejected,No,2024-04-07,Pune,0
+CUST10193,Female,38,Married,Delhi,65810.0,Self-Employed,Education,397255,36,7.36,693.0,Approved,No,2024-02-03,Delhi,3
+CUST10194,Male,46,Single,Chennai,31822.0,Business Owner,Home,1876240,24,11.74,644.0,Rejected,No,2025-02-02,Chennai,1
+CUST10195,Male,53,Single,Kolkata,54443.0,Business Owner,Home,1332327,60,11.72,676.0,Rejected,No,2024-03-18,Kolkata,1
+CUST10196,Female,41,Married,Chennai,63995.0,Student,Business,824234,60,11.42,708.0,Approved,No,2025-01-19,Chennai,0
+CUST10197,Male,60,Married,Hyderabad,48246.0,Student,Education,133903,12,10.92,680.0,Approved,No,2024-06-06,Hyderabad,0
+CUST10198,Female,49,Married,Chennai,56789.0,Student,Home,1361625,12,12.61,,Rejected,No,2025-04-04,Chennai,0
+CUST10199,Male,59,Married,Kolkata,49011.0,Self-Employed,Business,704450,12,10.56,651.0,Approved,Yes,2024-03-27,Kolkata,1
+CUST10200,Male,29,Married,Chennai,73457.0,Student,Personal,59358,12,9.58,656.0,Approved,No,2024-11-02,Chennai,3
+CUST10201,Male,61,Married,Lucknow,39138.0,Student,Home,1845413,12,9.54,665.0,Rejected,No,2024-01-07,Lucknow,0
+CUST10202,Female,49,Married,Lucknow,81394.0,Student,Home,1552696,36,9.62,636.0,Rejected,No,2024-07-24,Lucknow,0
+CUST10203,Female,39,Single,Ahmedabad,86174.0,Business Owner,Auto,639310,24,7.53,722.0,Approved,No,2025-02-06,Ahmedabad,0
+CUST10204,Male,64,Single,Mumbai,56676.0,Student,Auto,777926,60,12.63,655.0,Rejected,No,2024-08-02,Mumbai,3
+CUST10205,Female,64,Married,Chennai,37068.0,Student,Home,2704673,240,9.77,810.0,Rejected,No,2025-03-09,Chennai,0
+CUST10206,Female,55,Married,Pune,38862.0,Salaried,Personal,138135,36,9.45,760.0,Approved,No,2024-03-28,Pune,3
+CUST10207,Male,62,Single,Lucknow,39495.0,Student,Auto,543643,240,8.66,,Rejected,No,2024-12-05,Lucknow,0
+CUST10208,Male,49,Married,Ahmedabad,24896.0,Business Owner,Business,269660,120,10.97,647.0,Rejected,No,2024-06-03,Ahmedabad,0
+CUST10209,Male,28,Single,Bengaluru,88763.0,Business Owner,Personal,40065,36,10.07,718.0,Approved,No,2025-05-09,Bengaluru,1
+CUST10210,Female,41,Married,Mumbai,48763.0,Self-Employed,Business,702445,12,11.26,571.0,Approved,Yes,2024-04-21,Mumbai,2
+CUST10211,Male,42,Married,Ahmedabad,54161.0,Student,Home,2246225,60,15.41,,Rejected,No,2024-07-09,Ahmedabad,1
+CUST10212,Male,49,Married,Pune,34057.0,Salaried,Home,1734501,24,9.39,606.0,Rejected,No,2024-03-05,Pune,3
+CUST10213,Female,33,Married,Chennai,34065.0,Student,Education,418901,60,9.36,749.0,Approved,No,2025-02-01,Chennai,1
+CUST10214,Female,60,Married,Chennai,29191.0,Business Owner,Auto,694283,120,11.77,611.0,Rejected,No,2024-05-17,Chennai,0
+CUST10215,Female,65,Married,Pune,55073.0,Self-Employed,Personal,19370,24,14.09,758.0,Approved,No,2025-05-13,Pune,1
+CUST10216,Male,41,Single,Lucknow,34680.0,Self-Employed,Home,1806149,36,11.17,670.0,Rejected,No,2025-05-11,Lucknow,0
+CUST10217,Female,47,Single,Pune,66464.0,Self-Employed,Education,501020,60,8.9,637.0,Approved,Yes,2024-02-01,Pune,0
+CUST10218,Female,31,Single,Lucknow,15517.0,Salaried,Education,226906,60,14.09,647.0,Rejected,No,2024-04-25,Lucknow,0
+CUST10219,Female,55,Single,Mumbai,37060.0,Salaried,Business,567136,60,12.88,648.0,Rejected,No,2025-03-11,Mumbai,2
+CUST10220,Female,23,Married,Kolkata,113173.0,Self-Employed,Business,340739,12,12.59,615.0,Approved,No,2024-08-30,Kolkata,3
+CUST10221,Female,31,Single,Hyderabad,67047.0,Self-Employed,Business,1054012,12,9.78,690.0,Approved,No,2025-07-05,Hyderabad,0
+CUST10222,Female,53,Widowed,Delhi,64766.0,Self-Employed,Home,2554351,60,11.51,707.0,Rejected,No,2024-10-10,Delhi,2
+CUST10223,Female,36,Single,Pune,76667.0,Student,Personal,126771,120,11.8,746.0,Approved,No,2025-01-19,Pune,0
+CUST10224,Male,46,Married,Chennai,45822.0,Salaried,Education,314671,36,8.87,734.0,Approved,No,2025-08-18,Chennai,3
+CUST10225,Female,61,Single,Kolkata,59217.0,Student,Business,381998,120,13.06,652.0,Approved,No,2024-08-04,Kolkata,0
+CUST10226,Male,57,Single,Kolkata,54777.0,Salaried,Business,513930,12,11.99,554.0,Approved,Yes,2025-04-15,Kolkata,0
+CUST10227,Female,21,Widowed,Pune,66137.0,Self-Employed,Home,3081627,240,10.94,628.0,Rejected,No,2024-11-05,Pune,3
+CUST10228,Female,37,Married,Bengaluru,56235.0,Student,Home,2788726,240,11.06,643.0,Rejected,No,2024-08-27,Bengaluru,2
+CUST10229,Male,51,Married,Lucknow,65197.0,Business Owner,Home,2093304,240,10.89,618.0,Rejected,No,2024-01-09,Lucknow,3
+CUST10230,Male,51,Married,Pune,76841.0,Self-Employed,Home,1486742,12,9.1,659.0,Approved,Yes,2024-11-02,Pune,1
+CUST10231,Male,62,Widowed,Bengaluru,79876.0,Business Owner,Home,1238406,120,11.25,610.0,Approved,Yes,2025-03-26,Bengaluru,2
+CUST10232,Female,60,Single,Hyderabad,89138.0,Business Owner,Home,1967124,12,14.26,611.0,Approved,Yes,2025-01-28,Hyderabad,1
+CUST10233,Female,62,Married,Jaipur,13800.0,Business Owner,Education,80119,240,9.5,680.0,Rejected,No,2024-01-28,Jaipur,0
+CUST10234,Female,39,Single,Hyderabad,24469.0,Salaried,Personal,108334,12,9.37,667.0,Approved,No,2024-03-13,Hyderabad,0
+CUST10235,Female,44,Married,Bengaluru,17992.0,Self-Employed,Business,761737,12,10.3,695.0,Approved,Yes,2024-09-25,Bengaluru,0
+CUST10236,Female,53,Married,Jaipur,96166.0,Self-Employed,Business,178974,60,9.12,543.0,Approved,Yes,2025-07-03,Jaipur,0
+CUST10237,Male,30,Married,Pune,48860.0,Self-Employed,Personal,89733,240,11.2,633.0,Approved,Yes,2025-03-23,Pune,0
+CUST10238,Male,50,Single,Mumbai,18712.0,Salaried,Personal,137750,240,12.73,644.0,Rejected,No,2024-06-28,Mumbai,0
+CUST10239,Male,52,Divorced,Jaipur,58568.0,Salaried,Personal,98270,240,11.4,689.0,Approved,No,2024-10-02,Jaipur,3
+CUST10240,Female,38,Married,Chennai,66068.0,Business Owner,Education,432915,120,11.92,663.0,Approved,No,2025-06-07,Chennai,0
+CUST10241,Female,31,Married,Delhi,,Salaried,Business,932035,240,14.1,602.0,Rejected,No,2024-08-21,Delhi,0
+CUST10242,Male,51,Married,Bengaluru,48996.0,Self-Employed,Home,1284612,12,9.14,658.0,Rejected,No,2025-03-05,Bengaluru,0
+CUST10243,Female,38,Single,Lucknow,71016.0,Salaried,Personal,53895,120,6.72,618.0,Approved,Yes,2024-08-16,Lucknow,1
+CUST10244,Female,40,Married,Jaipur,38692.0,Self-Employed,Personal,16955,36,12.02,539.0,Approved,Yes,2024-11-07,Jaipur,1
+CUST10245,Male,55,Single,Hyderabad,69645.0,Business Owner,Home,2212728,60,10.4,582.0,Approved,Yes,2024-01-10,Hyderabad,0
+CUST10246,Female,27,Married,Hyderabad,49910.0,Salaried,Personal,33665,12,12.25,755.0,Approved,No,2024-10-13,Hyderabad,0
+CUST10247,Female,65,Single,Ahmedabad,44476.0,Self-Employed,Auto,605377,12,6.5,664.0,Rejected,No,2025-06-01,Ahmedabad,2
+CUST10248,Male,48,Single,Bengaluru,43821.0,Business Owner,Home,1659007,36,9.94,579.0,Rejected,No,2025-02-06,Bengaluru,0
+CUST10249,Male,29,Single,Lucknow,94942.0,Salaried,Home,2320421,12,11.65,610.0,Approved,Yes,2025-02-20,Lucknow,1
+CUST10250,Female,40,Married,Delhi,84984.0,Self-Employed,Home,2462316,240,9.21,654.0,Rejected,No,2024-02-11,Delhi,3
+CUST10251,Male,43,Married,Mumbai,67456.0,Student,Education,339348,36,11.77,712.0,Approved,Yes,2025-02-18,Mumbai,1
+CUST10252,Female,27,Single,Bengaluru,76239.0,Self-Employed,Home,1732382,12,10.9,742.0,Rejected,No,2024-08-15,Bengaluru,0
+CUST10253,Male,58,Married,Delhi,101882.0,Salaried,Home,1655406,12,10.9,771.0,Approved,No,2024-05-11,Delhi,3
+CUST10254,Male,50,Married,Lucknow,33715.0,Self-Employed,Personal,60644,240,11.35,627.0,Approved,Yes,2025-03-12,Lucknow,0
+CUST10255,Female,49,Single,Mumbai,63071.0,Student,Education,242629,120,14.78,648.0,Approved,Yes,2025-02-25,Mumbai,0
+CUST10256,Female,33,Single,Jaipur,93189.0,Business Owner,Home,2218161,120,10.74,652.0,Rejected,No,2025-01-26,Jaipur,1
+CUST10257,Female,45,Married,Mumbai,65338.0,Salaried,Personal,39088,24,7.16,631.0,Approved,No,2024-10-14,Mumbai,3
+CUST10258,Male,31,Married,Hyderabad,59981.0,Student,Personal,105887,240,13.65,616.0,Approved,No,2024-08-12,Hyderabad,0
+CUST10259,Male,32,Married,Kolkata,19356.0,Self-Employed,Business,60687,240,12.59,665.0,Approved,No,2024-12-26,Kolkata,1
+CUST10260,Female,55,Married,Ahmedabad,92098.0,Student,Home,1770557,12,10.42,725.0,Approved,Yes,2025-06-23,Ahmedabad,0
+CUST10261,Male,42,Single,Kolkata,45684.0,Salaried,Home,2441829,24,7.35,695.0,Rejected,No,2024-05-25,Kolkata,3
+CUST10262,Male,44,Single,Pune,86914.0,Student,Personal,135203,36,11.29,606.0,Approved,Yes,2024-06-10,Pune,3
+CUST10263,Female,32,Single,Jaipur,62351.0,Student,Education,326067,120,9.16,611.0,Approved,Yes,2024-06-28,Jaipur,0
+CUST10264,Male,21,Single,Lucknow,49361.0,Salaried,Personal,126909,120,9.76,688.0,Approved,No,2024-08-14,Lucknow,1
+CUST10265,Male,43,Widowed,Bengaluru,69292.0,Student,Education,15145,12,7.02,730.0,Approved,No,2024-12-09,Bengaluru,0
+CUST10266,Male,43,Married,Delhi,40939.0,Student,Education,188033,12,12.82,559.0,Approved,Yes,2024-06-19,Delhi,1
+CUST10267,Female,27,Single,Lucknow,38307.0,Business Owner,Education,334650,240,11.45,646.0,Approved,Yes,2024-02-04,Lucknow,0
+CUST10268,Male,42,Married,Pune,51921.0,Business Owner,Home,1358503,12,9.51,719.0,Rejected,No,2024-04-05,Pune,1
+CUST10269,Male,48,Single,Bengaluru,11085.0,Business Owner,Education,257188,60,12.2,755.0,Rejected,No,2024-04-13,Bengaluru,0
+CUST10270,Female,63,Married,Hyderabad,41284.0,Self-Employed,Home,1825371,60,14.65,627.0,Rejected,No,2025-05-17,Hyderabad,0
+CUST10271,Female,63,Single,Ahmedabad,59548.0,Salaried,Home,2215020,12,10.98,722.0,Rejected,No,2024-10-25,Ahmedabad,1
+CUST10272,Female,51,Married,Chennai,43524.0,Student,Home,1901825,120,10.43,644.0,Rejected,No,2025-01-14,Chennai,0
+CUST10273,Female,50,Married,Chennai,68191.0,Business Owner,Personal,82077,24,10.34,701.0,Approved,No,2024-03-28,Chennai,3
+CUST10274,Male,56,Married,Pune,51966.0,Self-Employed,Business,99460,60,11.19,714.0,Approved,No,2025-05-01,Pune,1
+CUST10275,Male,53,Married,Jaipur,74950.0,Salaried,Business,368876,240,10.22,796.0,Rejected,No,2024-05-30,Jaipur,3
+CUST10276,Male,34,Single,Bengaluru,77705.0,Self-Employed,Home,1480047,12,8.39,692.0,Rejected,No,2025-03-21,Bengaluru,3
+CUST10277,Female,41,Single,Delhi,34406.0,Business Owner,Home,2957015,120,10.93,636.0,Rejected,No,2024-11-29,Delhi,1
+CUST10278,Female,28,Married,Bengaluru,71752.0,Salaried,Personal,99827,120,11.23,660.0,Approved,No,2024-04-18,Bengaluru,3
+CUST10279,Female,47,Married,Ahmedabad,110085.0,Student,Personal,77695,60,12.6,664.0,Approved,No,2024-05-27,Ahmedabad,0
+CUST10280,Male,24,Single,Chennai,77638.0,Business Owner,Business,856109,12,8.21,694.0,Approved,No,2024-11-14,Chennai,3
+CUST10281,Male,35,Married,Ahmedabad,90836.0,Self-Employed,Business,156096,36,8.99,671.0,Approved,No,2024-04-01,Ahmedabad,1
+CUST10282,Female,54,Single,Mumbai,48397.0,Self-Employed,Personal,93150,24,11.34,672.0,Approved,No,2025-02-17,Mumbai,3
+CUST10283,Male,32,Married,Hyderabad,90343.0,Self-Employed,Business,636060,24,12.43,632.0,Approved,Yes,2025-01-04,Hyderabad,0
+CUST10284,Female,61,Single,Mumbai,79737.0,Business Owner,Home,1386196,60,11.9,691.0,Approved,Yes,2025-04-30,Mumbai,0
+CUST10285,Male,39,Married,Mumbai,42561.0,Self-Employed,Home,2687853,120,10.75,639.0,Rejected,No,2024-08-07,Mumbai,2
+CUST10286,Female,53,Married,Mumbai,45673.0,Self-Employed,Personal,80623,24,7.62,573.0,Approved,Yes,2024-01-09,Mumbai,0
+CUST10287,Female,48,Single,Kolkata,89863.0,Salaried,Personal,46121,24,6.5,580.0,Approved,No,2025-02-10,Kolkata,0
+CUST10288,Female,56,Single,Lucknow,34026.0,Business Owner,Personal,27076,240,12.52,764.0,Approved,No,2024-10-10,Lucknow,3
+CUST10289,Female,33,Married,Hyderabad,32796.0,Self-Employed,Business,1175730,120,9.85,,Rejected,No,2024-11-23,Hyderabad,2
+CUST10290,Female,37,Single,Pune,8000.0,Self-Employed,Personal,171637,12,7.21,552.0,Rejected,No,2025-08-08,Pune,0
+CUST10291,Female,63,Married,Chennai,75564.0,Business Owner,Business,1231925,240,11.63,746.0,Rejected,No,2024-07-04,Chennai,0
+CUST10292,Male,64,Single,Delhi,64869.0,Student,Home,2426707,24,11.06,703.0,Rejected,No,2024-11-10,Delhi,3
+CUST10293,Female,50,Single,Ahmedabad,52605.0,Student,Home,1968703,240,9.94,597.0,Rejected,No,2024-03-13,Ahmedabad,0
+CUST10294,Female,54,Married,Mumbai,8000.0,Business Owner,Business,470498,24,8.29,580.0,Rejected,No,2024-07-24,Mumbai,1
+CUST10295,Female,30,Married,Bengaluru,54497.0,Salaried,Business,917600,60,7.36,714.0,Approved,No,2024-11-16,Bengaluru,0
+CUST10296,Male,57,Single,Ahmedabad,25259.0,Student,Business,782231,12,10.05,581.0,Rejected,No,2025-03-20,Ahmedabad,1
+CUST10297,Male,23,Married,Kolkata,63751.0,Salaried,Auto,406331,36,7.83,657.0,Approved,No,2024-01-19,Kolkata,2
+CUST10298,Female,40,Married,Pune,34966.0,Business Owner,Personal,92791,36,11.38,538.0,Approved,Yes,2024-11-01,Pune,1
+CUST10299,Female,48,Single,Bengaluru,49509.0,Salaried,Personal,102099,60,13.23,665.0,Approved,Yes,2025-02-17,Bengaluru,0
+CUST10300,Male,22,Married,Bengaluru,53131.0,Student,Home,1785297,240,11.59,658.0,Rejected,No,2024-02-08,Bengaluru,2
+CUST10301,Male,59,Widowed,Delhi,51222.0,Student,Education,304059,12,9.17,600.0,Approved,Yes,2025-03-30,Delhi,0
+CUST10302,Male,34,Single,Mumbai,14935.0,Student,Personal,149983,240,9.11,562.0,Approved,Yes,2024-05-20,Mumbai,3
+CUST10303,Male,39,Married,Delhi,32040.0,Self-Employed,Personal,115796,120,13.0,629.0,Approved,Yes,2025-06-19,Delhi,0
+CUST10304,Male,56,Married,Hyderabad,33163.0,Salaried,Education,327899,60,14.79,591.0,Approved,Yes,2024-04-01,Hyderabad,3
+CUST10305,Male,53,Married,Delhi,20310.0,Business Owner,Auto,661964,240,11.33,694.0,Rejected,No,2024-10-30,Delhi,1
+CUST10306,Male,39,Married,Kolkata,45368.0,Salaried,Personal,74807,12,10.21,653.0,Approved,No,2024-02-16,Kolkata,3
+CUST10307,Female,43,Single,Lucknow,74097.0,Salaried,Personal,168420,240,7.76,610.0,Approved,No,2024-07-06,Lucknow,1
+CUST10308,Female,65,Single,Pune,47793.0,Self-Employed,Education,557970,24,13.78,593.0,Approved,Yes,2024-03-01,Pune,0
+CUST10309,Female,32,Single,Kolkata,91943.0,Student,Education,244641,240,13.76,689.0,Approved,No,2024-05-13,Kolkata,1
+CUST10310,Male,25,Married,Kolkata,40522.0,Self-Employed,Home,1898209,240,8.47,609.0,Rejected,No,2025-08-13,Kolkata,2
+CUST10311,Male,48,Single,Hyderabad,33768.0,Salaried,Personal,31042,240,8.96,652.0,Approved,No,2025-07-25,Hyderabad,0
+CUST10312,Female,52,Single,Delhi,55845.0,Self-Employed,Business,33231,36,12.17,673.0,Approved,No,2024-02-21,Delhi,1
+CUST10313,Male,26,Married,Lucknow,8000.0,Student,Personal,94962,60,8.08,735.0,Rejected,No,2024-05-01,Lucknow,2
+CUST10314,Female,23,Married,Mumbai,91814.0,Self-Employed,Business,625705,120,10.39,600.0,Approved,Yes,2025-06-04,Mumbai,2
+CUST10315,Female,24,Single,Ahmedabad,63958.0,Student,Personal,83040,120,8.66,687.0,Approved,No,2025-01-07,Ahmedabad,0
+CUST10316,Male,42,Married,Chennai,54234.0,Student,Personal,23451,36,8.69,642.0,Approved,Yes,2024-06-17,Chennai,0
+CUST10317,Female,27,Married,Hyderabad,31612.0,Business Owner,Home,2618046,60,11.72,726.0,Rejected,No,2024-07-14,Hyderabad,0
+CUST10318,Male,49,Married,Lucknow,22692.0,Salaried,Auto,536718,24,10.78,734.0,Rejected,No,2024-01-05,Lucknow,1
+CUST10319,Female,53,Single,Bengaluru,107983.0,Business Owner,Education,339331,24,9.88,663.0,Approved,Yes,2025-01-31,Bengaluru,1
+CUST10320,Male,38,Married,Kolkata,53339.0,Student,Auto,569506,60,12.41,699.0,Rejected,No,2024-05-21,Kolkata,1
+CUST10321,Female,65,Married,Kolkata,30350.0,Self-Employed,Education,166876,120,11.52,521.0,Rejected,No,2024-07-24,Kolkata,1
+CUST10322,Male,62,Divorced,Bengaluru,22416.0,Student,Personal,6115,240,15.49,677.0,Approved,No,2024-12-26,Bengaluru,1
+CUST10323,Female,64,Single,Jaipur,49848.0,Student,Personal,113539,60,10.3,655.0,Approved,No,2024-01-26,Jaipur,0
+CUST10324,Female,31,Widowed,Chennai,72977.0,Self-Employed,Home,1854862,12,11.14,668.0,Rejected,No,2024-10-29,Chennai,3
+CUST10325,Female,27,Single,Jaipur,33298.0,Self-Employed,Business,797612,240,8.99,637.0,Rejected,No,2025-02-02,Jaipur,1
+CUST10326,Female,65,Single,Pune,63413.0,Business Owner,Personal,44061,240,10.48,651.0,Approved,No,2024-01-14,Pune,0
+CUST10327,Female,35,Single,Kolkata,77147.0,Business Owner,Business,642409,120,12.14,648.0,Approved,Yes,2024-07-17,Kolkata,1
+CUST10328,Male,32,Single,Delhi,84755.0,Business Owner,Personal,102312,60,7.88,650.0,Approved,Yes,2024-06-13,Delhi,0
+CUST10329,Male,23,Married,Kolkata,23372.0,Business Owner,Personal,67791,240,10.13,607.0,Approved,No,2025-05-17,Kolkata,0
+CUST10330,Male,32,Married,Jaipur,51416.0,Business Owner,Home,2264846,120,11.47,645.0,Rejected,No,2024-04-04,Jaipur,0
+CUST10331,Female,44,Married,Lucknow,51612.0,Self-Employed,Personal,23393,240,10.21,584.0,Approved,No,2025-04-01,Lucknow,2
+CUST10332,Male,64,Single,Pune,19758.0,Business Owner,Auto,719985,12,12.94,757.0,Rejected,No,2025-07-07,Pune,0
+CUST10333,Female,53,Single,Ahmedabad,44664.0,Salaried,Personal,139629,36,9.83,660.0,Approved,Yes,2025-06-10,Ahmedabad,0
+CUST10334,Male,61,Married,Hyderabad,34665.0,Student,Business,409259,60,10.84,622.0,Rejected,No,2024-07-29,Hyderabad,2
+CUST10335,Male,22,Married,Kolkata,54014.0,Salaried,Home,2001523,12,12.88,680.0,Rejected,No,2024-09-14,Kolkata,1
+CUST10336,Female,45,Married,Pune,73739.0,Salaried,Personal,20604,12,12.37,471.0,Approved,Yes,2024-01-07,Pune,3
+CUST10337,Male,43,Single,Delhi,15828.0,Student,Personal,71009,240,6.9,568.0,Approved,Yes,2025-03-24,Delhi,1
+CUST10338,Male,55,Married,Pune,63537.0,Business Owner,Business,727746,120,6.5,609.0,Approved,Yes,2024-11-01,Pune,0
+CUST10339,Male,23,Married,Lucknow,36344.0,Self-Employed,Personal,95672,120,10.87,546.0,Rejected,No,2024-11-08,Lucknow,2
+CUST10340,Male,47,Single,Jaipur,49617.0,Self-Employed,Home,2289645,24,8.55,658.0,Rejected,No,2024-09-15,Jaipur,0
+CUST10341,Male,56,Married,Jaipur,79914.0,Student,Home,1920735,240,8.63,648.0,Approved,Yes,2025-08-17,Jaipur,0
+CUST10342,Male,27,Married,Delhi,38918.0,Self-Employed,Auto,423039,36,13.92,637.0,Approved,Yes,2024-11-09,Delhi,1
+CUST10343,Female,31,Married,Hyderabad,15702.0,Self-Employed,Business,15931,240,10.08,752.0,Approved,No,2025-01-03,Hyderabad,2
+CUST10344,Female,49,Married,Chennai,33273.0,Self-Employed,Personal,121596,12,14.15,607.0,Approved,Yes,2024-10-14,Chennai,1
+CUST10345,Male,25,Single,Jaipur,66948.0,Salaried,Education,251208,120,9.29,801.0,Approved,No,2024-08-05,Jaipur,1
+CUST10346,Female,62,Single,Kolkata,,Salaried,Personal,91971,120,13.62,741.0,Approved,No,2025-04-20,Kolkata,1
+CUST10347,Male,60,Single,Jaipur,50800.0,Self-Employed,Home,1623291,24,9.14,682.0,Rejected,No,2025-08-02,Jaipur,2
+CUST10348,Male,35,Single,Hyderabad,100335.0,Business Owner,Home,2068267,36,10.87,624.0,Approved,No,2025-06-14,Hyderabad,1
+CUST10349,Male,23,Widowed,Kolkata,16322.0,Business Owner,Home,1514192,120,9.19,734.0,Rejected,No,2024-10-07,Kolkata,1
+CUST10350,Female,44,Married,Delhi,23827.0,Student,Personal,101466,60,11.94,732.0,Rejected,No,2024-08-16,Delhi,0
+CUST10351,Female,59,Married,Bengaluru,74901.0,Self-Employed,Personal,49728,24,13.5,550.0,Approved,Yes,2024-08-04,Bengaluru,0
+CUST10352,Male,63,Married,Kolkata,41933.0,Student,Education,274916,60,11.61,742.0,Approved,No,2024-06-14,Kolkata,0
+CUST10353,Male,29,Single,Mumbai,61397.0,Student,Business,1149500,24,12.36,604.0,Approved,Yes,2024-07-03,Mumbai,1
+CUST10354,Female,26,Married,Lucknow,51425.0,Self-Employed,Auto,653718,60,11.52,756.0,Approved,No,2024-05-26,Lucknow,1
+CUST10355,Female,50,Married,Delhi,63457.0,Self-Employed,Home,2536253,60,8.82,624.0,Rejected,No,2024-01-17,Delhi,1
+CUST10356,Female,30,Single,Bengaluru,23880.0,Salaried,Personal,25144,120,8.29,793.0,Approved,No,2025-05-30,Bengaluru,0
+CUST10357,Male,64,Single,Jaipur,44469.0,Student,Personal,68927,12,12.13,671.0,Approved,No,2025-05-08,Jaipur,0
+CUST10358,Male,48,Married,Ahmedabad,71512.0,Business Owner,Business,325076,12,11.07,,Approved,No,2025-02-22,Ahmedabad,0
+CUST10359,Male,57,Married,Jaipur,43783.0,Student,Home,2803672,240,11.97,684.0,Rejected,No,2024-11-19,Jaipur,0
+CUST10360,Female,37,Single,Pune,66572.0,Student,Personal,126938,120,7.91,662.0,Approved,No,2024-07-27,Pune,1
+CUST10361,Female,56,Married,Chennai,59992.0,Salaried,Auto,469728,120,11.67,612.0,Approved,No,2024-05-21,Chennai,2
+CUST10362,Male,27,Married,Pune,,Self-Employed,Business,506381,120,13.9,671.0,Approved,No,2024-02-23,Pune,1
+CUST10363,Male,30,Married,Lucknow,56019.0,Student,Personal,184067,12,6.98,689.0,Approved,No,2024-02-08,Lucknow,1
+CUST10364,Male,32,Single,Ahmedabad,68834.0,Business Owner,Home,2190579,240,11.85,740.0,Rejected,No,2025-06-14,Ahmedabad,0
+CUST10365,Male,60,Married,Mumbai,46539.0,Student,Personal,31028,240,8.8,635.0,Approved,Yes,2024-10-09,Mumbai,0
+CUST10366,Male,54,Married,Delhi,35487.0,Business Owner,Auto,717715,120,11.29,766.0,Approved,No,2025-08-19,Delhi,0
+CUST10367,Male,50,Single,Lucknow,20103.0,Salaried,Home,2222301,24,9.28,733.0,Rejected,No,2024-04-19,Lucknow,1
+CUST10368,Female,55,Single,Lucknow,46650.0,Student,Personal,80587,60,11.8,595.0,Rejected,No,2025-07-30,Lucknow,3
+CUST10369,Female,64,Married,Lucknow,46976.0,Self-Employed,Business,625859,60,9.63,587.0,Approved,Yes,2024-08-13,Lucknow,3
+CUST10370,Male,65,Single,Hyderabad,68060.0,Self-Employed,Personal,65086,60,9.7,770.0,Approved,No,2024-03-18,Hyderabad,1
+CUST10371,Female,32,Single,Hyderabad,55617.0,Self-Employed,Personal,117303,24,6.98,550.0,Approved,Yes,2024-09-28,Hyderabad,0
+CUST10372,Female,30,Single,Delhi,11859.0,Salaried,Auto,852516,240,15.62,611.0,Rejected,No,2025-05-19,Delhi,3
+CUST10373,Female,44,Single,Ahmedabad,35894.0,Self-Employed,Business,555365,120,14.51,757.0,Rejected,No,2025-05-17,Ahmedabad,3
+CUST10374,Male,57,Married,Jaipur,101538.0,Student,Business,862509,60,11.69,721.0,Approved,Yes,2024-12-21,Jaipur,3
+CUST10375,Male,65,Married,Kolkata,69459.0,Business Owner,Education,244881,12,10.49,592.0,Approved,Yes,2024-04-13,Kolkata,0
+CUST10376,Female,36,Married,Lucknow,45745.0,Business Owner,Personal,61870,24,12.41,698.0,Approved,No,2025-01-16,Lucknow,3
+CUST10377,Male,57,Single,Delhi,52210.0,Self-Employed,Education,447753,24,10.11,570.0,Approved,Yes,2024-07-19,Delhi,3
+CUST10378,Male,32,Married,Bengaluru,32079.0,Business Owner,Auto,226692,240,10.26,644.0,Approved,No,2025-05-13,Bengaluru,0
+CUST10379,Female,27,Single,Mumbai,87836.0,Student,Home,2315405,36,14.21,578.0,Rejected,No,2024-04-08,Mumbai,2
+CUST10380,Female,43,Married,Delhi,80526.0,Self-Employed,Personal,103283,240,8.58,634.0,Approved,Yes,2025-08-12,Delhi,3
+CUST10381,Female,49,Single,Pune,40695.0,Business Owner,Education,408874,60,13.59,781.0,Approved,Yes,2024-06-20,Pune,1
+CUST10382,Male,26,Married,Hyderabad,37779.0,Business Owner,Personal,35215,240,6.96,659.0,Approved,No,2025-02-08,Hyderabad,1
+CUST10383,Female,47,Married,Mumbai,58079.0,Self-Employed,Home,1926198,24,7.31,617.0,Rejected,No,2024-03-22,Mumbai,0
+CUST10384,Female,56,Married,Pune,62840.0,Student,Personal,58691,12,6.5,568.0,Approved,Yes,2024-03-27,Pune,0
+CUST10385,Female,61,Married,Jaipur,49312.0,Student,Business,1031675,12,9.59,766.0,Approved,No,2024-11-29,Jaipur,1
+CUST10386,Female,56,Married,Jaipur,34945.0,Student,Home,2234387,120,11.1,580.0,Rejected,No,2025-07-31,Jaipur,1
+CUST10387,Female,51,Married,Delhi,69152.0,Salaried,Personal,129077,36,10.09,642.0,Approved,Yes,2024-01-11,Delhi,1
+CUST10388,Female,39,Married,Mumbai,28050.0,Business Owner,Education,217311,60,11.23,634.0,Rejected,No,2025-05-03,Mumbai,0
+CUST10389,Male,21,Married,Hyderabad,72840.0,Student,Personal,47872,120,9.96,754.0,Approved,No,2025-02-03,Hyderabad,0
+CUST10390,Male,54,Single,Lucknow,49466.0,Business Owner,Business,275836,240,12.27,480.0,Approved,Yes,2025-06-28,Lucknow,1
+CUST10391,Male,39,Married,Ahmedabad,68421.0,Salaried,Education,271867,36,11.53,654.0,Approved,No,2024-11-24,Ahmedabad,0
+CUST10392,Male,27,Married,Bengaluru,10936.0,Student,Education,247094,240,7.99,705.0,Approved,Yes,2024-01-16,Bengaluru,0
+CUST10393,Female,44,Married,Mumbai,57339.0,Student,Personal,25736,24,10.43,682.0,Approved,No,2024-03-14,Mumbai,0
+CUST10394,Female,21,Married,Hyderabad,9622.0,Self-Employed,Personal,126589,60,8.88,598.0,Rejected,No,2024-02-04,Hyderabad,1
+CUST10395,Male,51,Married,Chennai,55014.0,Salaried,Auto,829727,24,10.62,578.0,Rejected,No,2024-02-13,Chennai,0
+CUST10396,Female,24,Single,Hyderabad,60720.0,Business Owner,Auto,738621,24,9.77,662.0,Approved,Yes,2024-06-20,Hyderabad,1
+CUST10397,Male,23,Married,Ahmedabad,29310.0,Self-Employed,Education,308614,24,6.5,574.0,Rejected,No,2024-04-01,Ahmedabad,0
+CUST10398,Female,61,Married,Kolkata,60914.0,Self-Employed,Education,390393,240,8.48,484.0,Approved,Yes,2025-05-14,Kolkata,0
+CUST10399,Female,49,Single,Mumbai,65479.0,Student,Education,505749,36,9.04,651.0,Approved,Yes,2024-02-10,Mumbai,2
+CUST10400,Female,33,Married,Jaipur,45428.0,Self-Employed,Personal,134995,240,8.9,604.0,Approved,No,2025-07-21,Jaipur,0
+CUST10401,Female,55,Married,Mumbai,37931.0,Business Owner,Business,214001,120,13.75,658.0,Approved,Yes,2024-01-20,Mumbai,3
+CUST10402,Male,63,Divorced,Pune,58077.0,Self-Employed,Home,1873823,240,7.37,629.0,Rejected,No,2025-07-18,Pune,1
+CUST10403,Female,28,Married,Delhi,72078.0,Self-Employed,Home,1961081,24,16.89,637.0,Rejected,No,2024-02-02,Delhi,0
+CUST10404,Female,63,Married,Lucknow,57469.0,Salaried,Education,224820,36,12.8,620.0,Approved,Yes,2024-03-13,Lucknow,0
+CUST10405,Male,50,Single,Mumbai,52832.0,Salaried,Personal,22468,240,9.16,714.0,Approved,No,2025-01-12,Mumbai,3
+CUST10406,Male,40,Married,Hyderabad,96832.0,Self-Employed,Auto,816009,12,13.06,618.0,Approved,Yes,2025-01-29,Hyderabad,0
+CUST10407,Male,56,Single,Pune,51696.0,Salaried,Education,385277,240,8.81,683.0,Approved,No,2025-03-13,Pune,0
+CUST10408,Female,63,Married,Lucknow,33911.0,Business Owner,Personal,121198,36,9.69,626.0,Rejected,No,2025-07-17,Lucknow,3
+CUST10409,Female,41,Single,Lucknow,26122.0,Business Owner,Personal,96943,60,8.36,794.0,Approved,No,2024-09-17,Lucknow,1
+CUST10410,Male,39,Married,Jaipur,50605.0,Business Owner,Home,2706110,36,11.4,644.0,Approved,No,2024-08-07,Jaipur,0
+CUST10411,Female,56,Married,Lucknow,23440.0,Business Owner,Auto,685661,24,12.47,636.0,Rejected,No,2025-04-16,Lucknow,0
+CUST10412,Male,35,Married,Chennai,79685.0,Salaried,Home,3294781,60,11.15,690.0,Rejected,No,2024-08-10,Chennai,2
+CUST10413,Female,65,Single,Delhi,54860.0,Salaried,Personal,65873,36,9.91,673.0,Approved,No,2025-01-25,Delhi,3
+CUST10414,Female,48,Married,Delhi,54212.0,Student,Business,895279,24,12.78,579.0,Rejected,No,2024-01-12,Delhi,0
+CUST10415,Male,41,Married,Hyderabad,82928.0,Student,Home,1940965,240,9.28,501.0,Rejected,No,2025-02-06,Hyderabad,3
+CUST10416,Male,48,Married,Pune,82425.0,Student,Home,1988565,36,9.49,580.0,Approved,Yes,2024-02-20,Pune,0
+CUST10417,Male,29,Married,Hyderabad,71016.0,Self-Employed,Personal,101869,240,9.77,633.0,Approved,No,2025-06-20,Hyderabad,0
+CUST10418,Female,64,Single,Delhi,40206.0,Self-Employed,Home,1538794,60,9.86,763.0,Rejected,No,2024-12-22,Delhi,0
+CUST10419,Female,31,Widowed,Lucknow,80429.0,Self-Employed,Business,956394,60,9.64,719.0,Approved,No,2024-08-27,Lucknow,2
+CUST10420,Male,28,Single,Hyderabad,60093.0,Salaried,Auto,595160,24,11.15,586.0,Rejected,No,2024-10-21,Hyderabad,0
+CUST10421,Female,51,Married,Hyderabad,20524.0,Business Owner,Education,418767,24,10.9,617.0,Rejected,No,2025-06-19,Hyderabad,1
+CUST10422,Male,65,Single,Mumbai,57082.0,Business Owner,Personal,69643,240,9.55,691.0,Approved,No,2024-03-02,Mumbai,0
+CUST10423,Male,50,Single,Mumbai,71782.0,Salaried,Home,1327010,240,14.38,658.0,Approved,No,2025-01-03,Mumbai,0
+CUST10424,Female,35,Divorced,Jaipur,24992.0,Salaried,Auto,464451,12,10.86,685.0,Rejected,No,2025-05-11,Jaipur,0
+CUST10425,Male,23,Married,Jaipur,58766.0,Business Owner,Personal,99567,60,12.72,694.0,Approved,No,2024-12-21,Jaipur,0
+CUST10426,Female,24,Single,Pune,60245.0,Self-Employed,Business,427622,12,14.3,697.0,Approved,No,2024-08-18,Pune,0
+CUST10427,Male,45,Married,Lucknow,46684.0,Student,Business,207641,240,10.26,727.0,Approved,No,2024-06-05,Lucknow,0
+CUST10428,Male,34,Single,Lucknow,8000.0,Self-Employed,Personal,113896,24,10.32,612.0,Rejected,No,2024-11-12,Lucknow,1
+CUST10429,Male,62,Single,Bengaluru,58300.0,Business Owner,Personal,87619,120,9.63,699.0,Approved,No,2024-07-07,Bengaluru,3
+CUST10430,Female,47,Divorced,Chennai,62828.0,Salaried,Personal,69618,240,11.73,701.0,Approved,No,2024-07-11,Chennai,0
+CUST10431,Female,59,Married,Hyderabad,26614.0,Salaried,Personal,123439,24,12.12,612.0,Rejected,No,2025-01-02,Hyderabad,2
+CUST10432,Female,62,Married,Pune,59182.0,Salaried,Personal,153527,24,9.8,634.0,Approved,Yes,2025-02-22,Pune,0
+CUST10433,Male,34,Married,Ahmedabad,49515.0,Student,Business,409046,60,7.27,705.0,Approved,No,2024-09-09,Ahmedabad,1
+CUST10434,Female,41,Married,Lucknow,23658.0,Salaried,Personal,37287,120,13.92,716.0,Approved,No,2024-02-09,Lucknow,1
+CUST10435,Male,54,Married,Mumbai,47389.0,Business Owner,Personal,73247,120,12.82,654.0,Approved,No,2024-07-13,Mumbai,1
+CUST10436,Female,50,Married,Chennai,26816.0,Student,Education,323836,12,11.5,718.0,Rejected,No,2024-05-25,Chennai,3
+CUST10437,Male,32,Single,Jaipur,54740.0,Self-Employed,Home,2500523,60,11.86,460.0,Rejected,No,2024-01-26,Jaipur,1
+CUST10438,Male,50,Married,Kolkata,33648.0,Salaried,Education,116936,240,13.25,685.0,Approved,No,2024-05-06,Kolkata,0
+CUST10439,Male,54,Single,Jaipur,46564.0,Business Owner,Education,395287,24,13.13,762.0,Approved,No,2024-06-23,Jaipur,1
+CUST10440,Male,30,Married,Mumbai,90999.0,Self-Employed,Personal,109685,36,7.3,655.0,Approved,No,2024-10-22,Mumbai,0
+CUST10441,Male,60,Single,Mumbai,43848.0,Self-Employed,Personal,46270,60,10.15,801.0,Approved,Yes,2025-05-20,Mumbai,0
+CUST10442,Female,49,Married,Lucknow,53080.0,Self-Employed,Home,2275742,120,13.89,653.0,Rejected,No,2025-07-24,Lucknow,0
+CUST10443,Female,23,Married,Mumbai,34434.0,Salaried,Education,319460,120,7.86,598.0,Approved,No,2024-02-20,Mumbai,1
+CUST10444,Female,60,Single,Lucknow,34706.0,Business Owner,Personal,78518,120,9.12,619.0,Approved,Yes,2025-08-15,Lucknow,0
+CUST10445,Female,45,Single,Pune,14842.0,Salaried,Business,475068,12,12.02,544.0,Rejected,No,2024-05-17,Pune,2
+CUST10446,Female,54,Married,Hyderabad,52061.0,Salaried,Education,154244,12,9.0,628.0,Approved,No,2025-06-25,Hyderabad,1
+CUST10447,Female,48,Single,Kolkata,57979.0,Self-Employed,Personal,133618,120,10.73,518.0,Rejected,No,2024-12-28,Kolkata,1
+CUST10448,Female,52,Single,Lucknow,45997.0,Salaried,Home,2335670,36,9.0,664.0,Rejected,No,2024-01-02,Lucknow,0
+CUST10449,Male,60,Widowed,Pune,42024.0,Salaried,Home,1601987,36,10.54,725.0,Rejected,No,2024-08-05,Pune,2
+CUST10450,Male,40,Married,Jaipur,97530.0,Salaried,Personal,77573,12,7.47,600.0,Approved,Yes,2025-02-09,Jaipur,3
+CUST10451,Female,64,Married,Ahmedabad,8000.0,Business Owner,Business,24759,240,11.52,668.0,Approved,Yes,2025-04-16,Ahmedabad,1
+CUST10452,Male,54,Married,Kolkata,10470.0,Business Owner,Personal,115801,12,10.79,616.0,Rejected,No,2024-12-05,Kolkata,0
+CUST10453,Male,42,Widowed,Jaipur,90306.0,Business Owner,Business,769051,120,8.72,631.0,Approved,Yes,2024-04-29,Jaipur,2
+CUST10454,Female,47,Married,Hyderabad,8000.0,Business Owner,Personal,51233,36,8.53,635.0,Approved,Yes,2024-04-24,Hyderabad,3
+CUST10455,Male,49,Married,Ahmedabad,46719.0,Business Owner,Auto,615370,24,9.2,634.0,Approved,No,2025-06-20,Ahmedabad,3
+CUST10456,Male,54,Single,Bengaluru,54216.0,Salaried,Home,2220970,12,13.32,573.0,Rejected,No,2025-06-18,Bengaluru,0
+CUST10457,Male,42,Married,Mumbai,47535.0,Business Owner,Home,2009424,240,10.97,699.0,Rejected,No,2024-01-24,Mumbai,2
+CUST10458,Male,39,Married,Kolkata,73828.0,Salaried,Business,586137,240,11.22,607.0,Approved,Yes,2024-10-07,Kolkata,0
+CUST10459,Male,34,Married,Jaipur,21407.0,Self-Employed,Personal,84342,24,10.08,647.0,Rejected,No,2024-10-17,Jaipur,0
+CUST10460,Female,55,Married,Bengaluru,46787.0,Salaried,Home,1059075,240,10.69,611.0,Rejected,No,2025-01-27,Bengaluru,0
+CUST10461,Female,60,Married,Kolkata,53996.0,Student,Business,191697,240,8.77,738.0,Approved,No,2024-03-21,Kolkata,1
+CUST10462,Female,27,Married,Ahmedabad,74236.0,Business Owner,Personal,97087,24,14.05,604.0,Approved,No,2024-09-21,Ahmedabad,1
+CUST10463,Female,41,Married,Mumbai,20159.0,Self-Employed,Home,2459577,12,9.16,720.0,Rejected,No,2025-04-17,Mumbai,0
+CUST10464,Male,53,Married,Delhi,84812.0,Student,Personal,69998,240,11.02,670.0,Approved,No,2025-04-17,Delhi,1
+CUST10465,Male,51,Married,Kolkata,46642.0,Business Owner,Home,2405404,240,7.0,705.0,Rejected,No,2025-03-21,Kolkata,1
+CUST10466,Male,57,Single,Delhi,82609.0,Self-Employed,Personal,13500,60,12.75,722.0,Approved,No,2025-03-31,Delhi,0
+CUST10467,Male,64,Single,Pune,22726.0,Self-Employed,Personal,63567,240,10.07,572.0,Rejected,No,2024-04-02,Pune,3
+CUST10468,Male,30,Single,Ahmedabad,42299.0,Business Owner,Personal,111186,60,13.29,741.0,Approved,No,2024-07-29,Ahmedabad,0
+CUST10469,Female,48,Single,Kolkata,35946.0,Self-Employed,Auto,558155,120,8.89,532.0,Approved,Yes,2025-02-17,Kolkata,3
+CUST10470,Male,21,Single,Kolkata,74121.0,Student,Home,2807791,36,9.32,563.0,Rejected,No,2024-08-28,Kolkata,2
+CUST10471,Female,46,Married,Jaipur,49340.0,Student,Home,2140080,24,11.35,593.0,Rejected,No,2024-07-11,Jaipur,3
+CUST10472,Male,39,Widowed,Bengaluru,38154.0,Student,Home,1992773,12,10.51,688.0,Rejected,No,2024-05-27,Bengaluru,2
+CUST10473,Male,29,Single,Pune,39090.0,Self-Employed,Business,467117,240,9.76,643.0,Rejected,No,2025-03-11,Pune,1
+CUST10474,Female,45,Married,Bengaluru,43530.0,Business Owner,Personal,143945,12,9.91,689.0,Approved,No,2024-08-30,Bengaluru,1
+CUST10475,Male,23,Married,Kolkata,67424.0,Self-Employed,Home,1833090,60,11.24,732.0,Rejected,No,2024-03-22,Kolkata,2
+CUST10476,Female,50,Married,Jaipur,47317.0,Business Owner,Business,634315,12,8.25,540.0,Approved,Yes,2024-03-20,Jaipur,1
+CUST10477,Male,51,Married,Ahmedabad,20152.0,Business Owner,Personal,85717,36,14.96,771.0,Approved,No,2024-10-28,Ahmedabad,0
+CUST10478,Female,57,Married,Ahmedabad,65951.0,Business Owner,Personal,100033,120,9.41,523.0,Approved,No,2024-01-28,Ahmedabad,1
+CUST10479,Female,37,Married,Chennai,30305.0,Self-Employed,Personal,55166,36,9.56,638.0,Approved,Yes,2024-06-27,Chennai,2
+CUST10480,Female,65,Married,Bengaluru,8000.0,Self-Employed,Business,724373,12,10.98,574.0,Rejected,No,2024-03-27,Bengaluru,1
+CUST10481,Female,47,Single,Hyderabad,101852.0,Salaried,Education,208061,240,9.93,472.0,Approved,Yes,2024-12-19,Hyderabad,2
+CUST10482,Male,31,Married,Ahmedabad,77524.0,Student,Personal,158333,240,11.49,563.0,Approved,No,2024-08-27,Ahmedabad,2
+CUST10483,Male,54,Single,Mumbai,38367.0,Salaried,Personal,75762,60,7.49,835.0,Approved,No,2025-06-26,Mumbai,0
+CUST10484,Female,60,Single,Chennai,56343.0,Student,Personal,98707,36,10.7,726.0,Approved,No,2025-08-21,Chennai,1
+CUST10485,Male,54,Married,Bengaluru,57701.0,Student,Personal,64334,12,9.81,668.0,Approved,No,2024-01-13,Bengaluru,0
+CUST10486,Female,35,Single,Chennai,65539.0,Self-Employed,Home,1815194,12,10.44,676.0,Rejected,No,2024-02-28,Chennai,1
+CUST10487,Male,26,Single,Bengaluru,78151.0,Self-Employed,Personal,77944,240,13.02,525.0,Approved,No,2024-04-23,Bengaluru,0
+CUST10488,Male,61,Married,Chennai,27357.0,Business Owner,Business,303870,240,13.25,608.0,Rejected,No,2024-11-27,Chennai,0
+CUST10489,Male,45,Married,Mumbai,8000.0,Student,Personal,205509,36,10.95,723.0,Rejected,No,2024-03-12,Mumbai,0
+CUST10490,Female,27,Married,Pune,48628.0,Business Owner,Home,2142777,240,11.79,686.0,Rejected,No,2025-03-28,Pune,0
+CUST10491,Female,49,Married,Ahmedabad,63890.0,Business Owner,Home,2044790,240,10.2,636.0,Approved,Yes,2025-02-03,Ahmedabad,0
+CUST10492,Male,53,Single,Ahmedabad,45127.0,Self-Employed,Personal,125350,60,6.5,691.0,Approved,No,2024-03-12,Ahmedabad,0
+CUST10493,Female,28,Married,Kolkata,66398.0,Business Owner,Personal,87789,36,9.72,648.0,Approved,No,2024-04-02,Kolkata,1
+CUST10494,Female,39,Single,Bengaluru,78103.0,Salaried,Personal,117901,60,11.31,595.0,Approved,Yes,2025-02-03,Bengaluru,2
+CUST10495,Female,33,Married,Hyderabad,25709.0,Salaried,Home,1310190,120,12.22,606.0,Rejected,No,2025-02-02,Hyderabad,3
+CUST10496,Female,22,Married,Mumbai,73828.0,Student,Personal,100523,240,11.53,700.0,Approved,No,2025-06-19,Mumbai,2
+CUST10497,Male,25,Married,Bengaluru,,Self-Employed,Personal,97276,12,12.01,706.0,Approved,No,2024-02-16,Bengaluru,2
+CUST10498,Male,40,Single,Delhi,79723.0,Salaried,Personal,108332,24,12.64,674.0,Approved,Yes,2024-04-18,Delhi,1
+CUST10499,Male,33,Married,Pune,49337.0,Salaried,Personal,44725,240,9.01,638.0,Approved,Yes,2024-08-06,Pune,1
